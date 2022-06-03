@@ -15,3 +15,19 @@
 * __CSS__
 * __JavaScript__ *(still in progress)*
 ---
+## __Code Example:__
+```
+function digital_root(n) {
+  let num = String(n);
+  let sumDig = 0;
+  for (let i =  0; i < num.length ; i++){
+    sumDig += parseInt(num[i]);
+  }
+  if (sumDig<10){
+    return sumDig
+  } else {  
+  return digital_root(n - n + sumDig)
+  }
+}
+```
+---
