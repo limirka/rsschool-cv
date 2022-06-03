@@ -1,3 +1,4 @@
+***
 # **Elizaveta Mirchuk**
 ## My Contact Info:
 
@@ -31,3 +32,18 @@ function digital_root(n) {
 }
 ```
 ---
+## __Education__
+* __Belarusian State Pedagogical University__
+
+    + *I'm a student of the faculty of Social Technologies*
+
+* __Programming courses:__
+
+    + [JavaScript](https://stepik.org/course/2223/syllabus?auth=login)
+    + [HTML](https://ru.code-basics.com/languages/html)
+    + [CSS](https://ru.code-basics.com/languages/css)
+---
+## __Languages__
+* **Russian** (native speaker)
+* **English** (B1 in process)
+***
