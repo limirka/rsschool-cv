@@ -19,6 +19,7 @@
 * __HTML5__
 * __CSS__
 * __JavaScript__ *(still in progress)*
+
 ---
 ## __Code Example:__
 ```
@@ -46,8 +47,10 @@ function digital_root(n) {
     + [JavaScript](https://stepik.org/course/2223/syllabus?auth=login)
     + [HTML](https://ru.code-basics.com/languages/html)
     + [CSS](https://ru.code-basics.com/languages/css)
+    
 ---
 ## __Languages__
 * **Russian** (native speaker)
 * **English** (B1 in process)
+
 ***
