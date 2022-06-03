@@ -1,1 +1,1 @@
-# rsschool-cv
+https://limirka.github.io/rsschool-cv/cv
