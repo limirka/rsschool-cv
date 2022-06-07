@@ -64,7 +64,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     border-bottom: 1px solid rgba(154, 76, 161, 0.979);
 }
 .profileText .imgBx {
@@ -104,7 +104,9 @@ body {
     color: #ff00dd;
 }
 .contacts {
-    padding-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(154, 76, 161, 0.979);
 }
 .title {
     color: #911881;
@@ -124,10 +126,30 @@ body {
 
 }
 
+.ae {
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #911881;
+}
 .text {
     padding-left: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 2px;
     font-weight: 300;
     color: #911881;
+}
+.edu {
+    padding-top: 50px;
+}
+edu ul {
+    position: relative;
+}
+.edu ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
 }
