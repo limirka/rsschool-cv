@@ -78,6 +78,27 @@
                         <div style="width: 60%"></div>
                     </div>
                 </div>
+                <div class="codeex">
+                    <h2 class="title2">Code Example:</h2>
+                    <pre class="code">
+                        <code>
+                        function digital_root(n) {
+                            let num = String(n);
+                            let sumDig = 0;
+                        
+                            for (let i = 0; i < num.length; i++){
+                                sumDig += parseInt(num[i]);
+                            }
+                        
+                            if (sumDig < 10){
+                                return sumDig
+                            } 
+                        
+                            return digital_root(sumDig)
+                        }
+                        </code>
+                    </pre>
+                </div>
             </div>
         </div>
     </div>

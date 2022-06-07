@@ -204,3 +204,14 @@ edu ul {
     height: 100%;
     background: #9c6c80;
 }
+
+.codeex {
+    position: relative;
+    padding-top: 40px;
+}
+.code {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(66, 0, 55);
+    background: rgba(49, 12, 44, 0.123);
+}
