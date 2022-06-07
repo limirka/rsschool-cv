@@ -9,7 +9,7 @@
 body {
 	background: linear-gradient(-45deg, #f8abcb, #ecb2e9, #bdc3f1, #c09fdb);
 	background-size: 400% 400%;
-	animation: gradient 6s ease infinite;
+	animation: gradient 4s ease infinite;
     display: flex;
     justify-content: center;
     align-items: center;
