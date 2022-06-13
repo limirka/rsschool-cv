@@ -214,9 +214,48 @@ body {
 }
 .code {
     font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
     letter-spacing: 1px;
     color: rgb(66, 0, 55);
     background: rgba(49, 12, 44, 0.123);
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--text-color);
+}
+  
+.footer-year {
+    
+    width: 100px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 37px;
+    font-weight: bold;
+    color: var(--bg-color);
+    color: #665464;
+}
 
+.footer-github > a {
+    color: var(--bg-color);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #665464;
+}
+.footer-github > img {
+    width: 20px;
+    
+}
+
+.footer-rsschool > a > img {
+    padding-left: 20px;
+    width: 100px;
+    position: relative;
+    top: 3px;
+    font-size: 10px;
+    width: 85px;
+}
