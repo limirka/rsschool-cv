@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;800&display=swap" rel="stylesheet"> 
+<meta charset="utf-8">
+<title>CV#2. HTML, CSS and Git Basics</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="l-side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img class="mainPhoto" src="images/photo_3.jpg" alt="photo">
+                </div>
+                <h2>Yelizaveta Mirchuk<br><span>Frontend Developer</span></h2>
+            </div>
+            <div class="contacts">
+                <h3 class="title">My Contact Info:</h3>
+                <ul>
+                    <li>
+                        <span><img class="icon" src="images/emailIcon.png" alt="email icon"> </span>
+                        <span class="text">limirka@icloud.com</span>
+                    </li>
+                    <li>
+                        <span><img class="icon" src="images/discord.png" alt="discord icon"> </span>
+                        <span class="text">Elizaveta Mirchuk (limirka)</span>
+                    </li>
+                    <li>
+                        <span><img class="icon" src="images/githubicon.png" alt="github icon"> </span>
+                        <span class="text"><a class="ae" href="https://github.com/limirka">limirka</a></span>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="edu">
+                <h3 class="title">Education:</h3>
+                <ul>
+                    <li>
+                        <span><img class="icon" src="images/graduation-hat.png" alt="univetsity icon"> </span>
+                        
+                        <span class="text">BSPU - sociologist</span>
+                    </li>
+                    <li>
+                        <span><img class="icon" src="images/htmlIcon.png" alt="html icon"> </span>
+                        
+                        <span class="text"><a class="ae" href="https://ru.code-basics.com/languages/html">Programming <br> Course</a></span>
+                    </li>
+                    <li>
+                        <span><img class="icon" src="images/css.png" alt="css icon"> </span>
+                       
+                        <span class="text"><a class="ae" href="https://ru.code-basics.com/languages/css">Programming <br>Course</a></span>
+                    </li>
+                    <li>
+                        <span><img class="icon" src="images/jsicon.png" alt="js icon"> </span>
+                       
+                        <span class="text"><a class="ae" href="https://stepik.org/course/2223/promo#toc?auth=login">Programming <br>Course</a></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="r-side">
+            <div class="about">
+                <h2 class="title2">Summary:</h2>
+                <p><strong>Hi There!</strong> I’m Liza and I am a newcomer in Frontend development. It's been 0,5 year, I'm learning it.<br> <br><strong>My goal</strong> is to gain more knowledge in this field.</p>
+            </div>
+            <div class="lang">
+                <h2 class="title2">Languages:</h2>
+                <div class="box">
+                    <h4>English</h4>
+                    <div class="percent">
+                        <div style="width: 45%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Russian</h4>
+                    <div class="percent">
+                        <div style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Belarusian</h4>
+                    <div class="percent">
+                        <div style="width: 30%"></div>
+                    </div>
+                </div>
+                <div class="codeex">
+                    <h2 class="title2">Code Example:</h2>
+                    <pre class="code">
+                        <code>
+                        function digital_root(n) {
+                            let num = String(n);
+                            let sumDig = 0;
+                        
+                            for (let i = 0; i < num.length; i++){
+                                sumDig += parseInt(num[i]);
+                            }
+                        
+                            if (sumDig < 10){
+                                return sumDig
+                            } 
+                        
+                            return digital_root(sumDig)
+                        }
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-year">2022</div>
+			<div class="footer-github">
+                <img src="./images/githubicon.png" alt="github-logo">
+				<a target="_blank" href="https://github.com/limirka/"><i class="fab fa-github"></i>Me on GitHub</a>
+			</div>
+			<div class="footer-rsschool">
+				<a target="_blank" href="https://rs.school/js-stage0/"><img src="./images/rs-logo1.svg" alt="RSSchool link"/></a>
+			</div>
+        </footer>
+    </div>
+    
+</body>
+        
+</html>
